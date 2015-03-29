@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:background="@color/white"
+>
+    <TextView
+        android:id="@+id/registrationMessage"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="Please enter your information in order to use this application and receive updates:"
+    >
+    </TextView>
+    <Spinner
+        android:id="@+id/autocomplete_state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:layout_marginLeft="5dp" />
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="10dp"
+        android:hint="email@address.com"
+        android:gravity="center_vertical"
+    >
+    </EditText>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+    >
+        <Button
+            android:id="@+id/registrationCancel"
+            android:background="@drawable/ic_launcher_selector"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        >
+        </Button>
+        <Button
+            android:id="@+id/registrationOK"
+            android:background="@drawable/ic_launcher_selector"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        >
+        </Button>
+    </LinearLayout>
+</LinearLayout>

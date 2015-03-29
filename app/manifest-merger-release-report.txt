@@ -1,0 +1,261 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:appcompat-v7:22.0.0:20:5
+MERGED from com.android.support:support-v4:22.0.0:20:5
+	android:maxSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:10:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+supports-screens
+ADDED from AndroidManifest.xml:21:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:23:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:26:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:24:9
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:27:9
+	android:resizeable
+		ADDED from AndroidManifest.xml:25:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:22:9
+uses-feature#android.hardware.telephony
+ADDED from AndroidManifest.xml:29:5
+	android:required
+		ADDED from AndroidManifest.xml:31:9
+	android:name
+		ADDED from AndroidManifest.xml:30:9
+application
+ADDED from AndroidManifest.xml:33:5
+MERGED from com.android.support:appcompat-v7:22.0.0:22:5
+MERGED from com.android.support:support-v4:22.0.0:22:5
+	android:label
+		ADDED from AndroidManifest.xml:36:9
+	android:hardwareAccelerated
+		ADDED from AndroidManifest.xml:34:9
+	android:uiOptions
+		ADDED from AndroidManifest.xml:37:9
+	android:icon
+		ADDED from AndroidManifest.xml:35:9
+activity#com.kosherapp.KosherApp
+ADDED from AndroidManifest.xml:38:9
+	android:label
+		ADDED from AndroidManifest.xml:41:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:40:13
+	android:theme
+		ADDED from AndroidManifest.xml:42:13
+	android:name
+		ADDED from AndroidManifest.xml:39:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:43:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:46:17
+	android:name
+		ADDED from AndroidManifest.xml:46:27
+activity#com.kosherapp.MenuPage
+ADDED from AndroidManifest.xml:49:9
+	android:label
+		ADDED from AndroidManifest.xml:51:13
+	android:name
+		ADDED from AndroidManifest.xml:50:13
+activity#com.kosherapp.LoyaltyCards
+ADDED from AndroidManifest.xml:53:9
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:theme
+		ADDED from AndroidManifest.xml:56:13
+	android:name
+		ADDED from AndroidManifest.xml:54:13
+intent-filter#android.intent.action.INSERT+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:57:13
+action#android.intent.action.INSERT
+ADDED from AndroidManifest.xml:58:17
+	android:name
+		ADDED from AndroidManifest.xml:58:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:60:17
+	android:name
+		ADDED from AndroidManifest.xml:60:27
+activity#com.kosherapp.LoyaltyRedeemScreen
+ADDED from AndroidManifest.xml:63:9
+	android:label
+		ADDED from AndroidManifest.xml:65:13
+	android:theme
+		ADDED from AndroidManifest.xml:66:13
+	android:name
+		ADDED from AndroidManifest.xml:64:13
+activity#com.kosherapp.RegistrationPage
+ADDED from AndroidManifest.xml:73:9
+	android:label
+		ADDED from AndroidManifest.xml:75:13
+	android:name
+		ADDED from AndroidManifest.xml:74:13
+activity#com.kosherapp.DetailsPage
+ADDED from AndroidManifest.xml:77:9
+	android:label
+		ADDED from AndroidManifest.xml:79:13
+	android:theme
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+activity#com.kosherapp.RestaurantDetailsPage
+ADDED from AndroidManifest.xml:87:9
+	android:label
+		ADDED from AndroidManifest.xml:89:13
+	android:theme
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#com.kosherapp.FilterChooser
+ADDED from AndroidManifest.xml:97:9
+	android:label
+		ADDED from AndroidManifest.xml:99:13
+	android:theme
+		ADDED from AndroidManifest.xml:100:13
+	android:name
+		ADDED from AndroidManifest.xml:98:13
+activity#com.kosherapp.SettingsView
+ADDED from AndroidManifest.xml:102:9
+	android:label
+		ADDED from AndroidManifest.xml:104:13
+	android:theme
+		ADDED from AndroidManifest.xml:105:13
+	android:name
+		ADDED from AndroidManifest.xml:103:13
+activity#com.kosherapp.LocationChooser
+ADDED from AndroidManifest.xml:107:9
+	android:label
+		ADDED from AndroidManifest.xml:109:13
+	android:theme
+		ADDED from AndroidManifest.xml:110:13
+	android:name
+		ADDED from AndroidManifest.xml:108:13
+activity#com.kosherapp.LocationMapView
+ADDED from AndroidManifest.xml:112:9
+	android:label
+		ADDED from AndroidManifest.xml:114:13
+	android:theme
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:113:13
+activity#com.kosherapp.DirectionMapView
+ADDED from AndroidManifest.xml:117:9
+	android:label
+		ADDED from AndroidManifest.xml:119:13
+	android:theme
+		ADDED from AndroidManifest.xml:120:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+activity#com.kosherapp.TipView
+ADDED from AndroidManifest.xml:122:9
+	android:label
+		ADDED from AndroidManifest.xml:124:13
+	android:theme
+		ADDED from AndroidManifest.xml:125:13
+	android:name
+		ADDED from AndroidManifest.xml:123:13
+activity#com.kosherapp.FullScreenAdView
+ADDED from AndroidManifest.xml:127:9
+	android:label
+		ADDED from AndroidManifest.xml:129:13
+	android:theme
+		ADDED from AndroidManifest.xml:130:13
+	android:name
+		ADDED from AndroidManifest.xml:128:13
+activity#com.kosherapp.storefront.StoreFront
+ADDED from AndroidManifest.xml:132:9
+	android:label
+		ADDED from AndroidManifest.xml:134:13
+	android:theme
+		ADDED from AndroidManifest.xml:135:13
+	android:name
+		ADDED from AndroidManifest.xml:133:13
+activity#com.google.ads.AdActivity
+ADDED from AndroidManifest.xml:137:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:139:13
+	android:name
+		ADDED from AndroidManifest.xml:138:13
+service#com.kosherapp.storefront.BillingService
+ADDED from AndroidManifest.xml:141:9
+	android:name
+		ADDED from AndroidManifest.xml:141:18
+receiver#com.kosherapp.storefront.BillingReceiver
+ADDED from AndroidManifest.xml:143:9
+	android:name
+		ADDED from AndroidManifest.xml:143:19
+intent-filter#com.android.vending.billing.IN_APP_NOTIFY+com.android.vending.billing.PURCHASE_STATE_CHANGED+com.android.vending.billing.RESPONSE_CODE
+ADDED from AndroidManifest.xml:144:13
+action#com.android.vending.billing.IN_APP_NOTIFY
+ADDED from AndroidManifest.xml:145:17
+	android:name
+		ADDED from AndroidManifest.xml:145:25
+action#com.android.vending.billing.RESPONSE_CODE
+ADDED from AndroidManifest.xml:146:17
+	android:name
+		ADDED from AndroidManifest.xml:146:25
+action#com.android.vending.billing.PURCHASE_STATE_CHANGED
+ADDED from AndroidManifest.xml:147:17
+	android:name
+		ADDED from AndroidManifest.xml:147:25

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TextView
+        android:id="@+id/loyaltyredeemscreen_cardName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/loyaltyredeemscreen_codelabel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Cashier Code"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/loyaltyredeemscreen_codeinput"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Code"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/loyaltyredeemscreen_punchamtlabel"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Punch Amount"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="normal" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/loyaltyredeemscreen_punchamtinput"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:inputType="phone"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/loyaltyredeemscreen_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_selector"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:textStyle="bold" >
+        </Button>
+
+        <Button
+            android:id="@+id/loyaltyredeemscreen_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_launcher_selector"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            android:textStyle="bold" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

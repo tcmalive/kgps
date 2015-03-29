@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/loyaltycards_mainHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="0dip" >
+
+        <TextView
+            android:id="@+id/loyaltycards_restaurantname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="0dip" >
+
+            <Button
+                android:id="@+id/loyaltycards_websitebutton"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginRight="2.5dp"
+                android:background="@drawable/website_button_selector" />
+
+            <Button
+                android:id="@+id/loyaltycards_callbutton"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="2.5dp"
+                android:layout_marginRight="2.5dp"
+                android:background="@drawable/phone" >
+            </Button>
+
+            <Button
+                android:id="@+id/loyaltycards_mapbutton"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="2.5dp"
+                android:background="@drawable/maps" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/imageAdWebView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/imageAdWebView"
+        android:layout_below="@id/loyaltycards_mainHeader"
+        android:cacheColorHint="#00000000" />
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageAdWebView"
+        android:layout_below="@id/loyaltycards_mainHeader"
+        android:background="@color/white"
+        android:text="@string/noData" />
+
+</RelativeLayout>

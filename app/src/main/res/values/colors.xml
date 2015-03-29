@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color
+        name="red"
+    >#FF0000</color>
+    <color
+        name="black"
+    >#000000</color>
+    <color
+        name="white"
+    >#FFFFFF</color>
+    <color
+        name="dark_grey"
+    >
+        #686868</color>
+    <color
+        name="green"
+    >
+        #00FF00</color>
+    <color
+        name="screen_background"
+    >#AFD8FF</color>
+    <color
+        name="error_message"
+    >#ffc00000</color>
+    <color
+        name="blue"
+    >#3A9EFB</color>
+    <color
+        name="aqua"
+    >#4fa5d5</color>
+</resources>

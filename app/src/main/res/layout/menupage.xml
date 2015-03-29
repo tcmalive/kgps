@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/menuPageButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="30dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:id="@+id/MenuPageRestaurantProgressBar"
+                    style="@android:style/Widget.ProgressBar.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"
+                    android:isScrollContainer="true"
+                    android:soundEffectsEnabled="true"
+                    android:visibility="invisible" >
+                </ProgressBar>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/menuPageRestaurantButton"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/roundbutton_restaurant_2"
+                        android:enabled="true"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/menuPageRestaurantText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Restaurants"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12dp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:id="@+id/MenuPageMikvehProgressBar"
+                    style="@android:style/Widget.ProgressBar.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"
+                    android:isScrollContainer="true"
+                    android:soundEffectsEnabled="true"
+                    android:visibility="invisible" >
+                </ProgressBar>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/menuPageMikvehButton"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/roundbutton_mikveh_3"
+                        android:enabled="true"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/menuPageMikvehText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Mikvahs"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12dp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:id="@+id/MenuPageMinyanProgressBar"
+                    style="@android:style/Widget.ProgressBar.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"
+                    android:isScrollContainer="true"
+                    android:soundEffectsEnabled="true"
+                    android:visibility="invisible" >
+                </ProgressBar>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/menuPageMinyanButton"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/roundbutton_synagogue_2"
+                        android:enabled="true"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/menuPageMinyanText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Minyanim"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12dp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:id="@+id/MenuPageLoyaltyProgressBar"
+                    style="@android:style/Widget.ProgressBar.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:indeterminate="true"
+                    android:indeterminateOnly="true"
+                    android:isScrollContainer="true"
+                    android:soundEffectsEnabled="true"
+                    android:visibility="invisible" >
+                </ProgressBar>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/menuPageLoyaltyButton"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/roundbutton_loyalty_2"
+                        android:enabled="true"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/menuPageLoyaltyText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Rewards"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="12dp"
+                        android:textStyle="bold" >
+                    </TextView>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/imageAdWebView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
